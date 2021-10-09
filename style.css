@@ -187,3 +187,674 @@ footer h3{
     margin: 20px 180px;
 }
 /* Footer Copyright Section Style Ends */
+
+/* Media Query Section Starts Here */
+/* media (min-width : 900px) and (max-width : 1000px) */
+@media (min-width : 900px) and (max-width : 1000px) {
+    .facebook_section h2{
+        width: 300px;
+        display: inline-block;
+        font-size: 50px;
+        color: #1877F2;
+        margin-left: 30px;
+        
+    }
+    .facebook_section p{
+        display: inline-block;
+        width: 370px;
+        font-size: 25px;
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        margin: 35px 20px 10px 20px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 850px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 20px;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 850px;
+        flex-wrap: wrap;
+        margin: 10px 20px 10px 20px;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 20px;
+    }
+}
+/* media (min-width : 1002px) and (max-width : 1110px) */
+@media (min-width : 1002px) and (max-width : 1110px) {
+    .facebook_section h2{
+        width: 300px;
+        display: inline-block;
+        font-size: 50px;
+        color: #1877F2;
+        margin-left: 90px;
+        
+    }
+    .facebook_section p{
+        display: inline-block;
+        width: 370px;
+        font-size: 25px;
+        margin-left: 90px;
+        padding-top: 10px;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        margin: 35px 70px 10px 70px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 850px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 70px;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 850px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 70px;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 70px;
+    }
+}
+
+/* media (min-width : 1112px) and (max-width : 1210px) */
+@media (min-width : 1112px) and (max-width : 1210px){
+    .facebook_section h2{
+        width: 300px;
+        display: inline-block;
+        font-size: 50px;
+        color: #1877F2;
+        margin: 0px 170px 0px 65px;
+        
+    }
+    .facebook_section p{
+        display: inline-block;
+        width: 370px;
+        font-size: 25px;
+        margin:0px 170px 0px 65px;
+        padding-top: 10px;
+    }
+    .form{
+        border: 1px solid gainsboro;
+        box-shadow: 2px 5px 20px #D9DBDE;
+        border-radius: 10px;
+        display:block;
+        margin: 0px 100px 0px 0px;
+        width: 400px;
+        height: 360px;
+        background: #FFFFFF;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        margin: 35px 70px 10px 70px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 850px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 70px;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 850px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 70px;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 70px;
+    }
+
+}
+
+/* media (min-width : 1210px) and (max-width : 1330px) */
+@media (min-width : 1210px) and (max-width : 1330px) {
+    
+    .languages ul{
+        display: flex;
+        list-style: none;
+        margin: 35px 70px 10px 110px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 850px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 110px;
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 850px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 110px;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 110px;
+    }
+}
+
+/* media (min-width : 770px) and (max-width : 900px) */
+@media (min-width : 770px) and (max-width : 900px){
+    .container{
+        width: 100%;
+        height: 700px;
+        background: #F0F2F5;
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook_section h2{
+        width: 100%;
+        display: block;
+        margin-top: -120px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 60px;
+        color: #1877F2;
+        
+    }
+    .facebook_section p{
+        display: block;
+        width: 370px;
+        font-size: 25px;
+        margin: 20px ;
+        padding-top: 10px;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        margin: 35px 0px 10px 15px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .footer_line{
+        width: 700px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 15px;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 730px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 15px;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 15px;
+    }
+}
+
+/* media (min-width : 640px) and (max-width : 769px) */
+@media (min-width : 640px) and (max-width : 769px) {
+    .container{
+        width: 100%;
+        height: 700px;
+        background: #F0F2F5;
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook_section h2{
+        width: 100%;
+        display: block;
+        margin-top: -120px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 60px;
+        color: #1877F2;
+        
+    }
+    .facebook_section p{
+        display: block;
+        width: 370px;
+        font-size: 25px;
+        margin: 20px ;
+        padding-top: 10px;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        margin: 35px 0px 10px 20px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 570px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 15px;
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 600px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 15px;
+    }
+    
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 15px;
+    }
+}
+
+/* media (min-width : 516px) and (max-width : 639px)  */
+@media (min-width : 516px) and (max-width : 639px) {
+    .container{
+        width: 100%;
+        height: 700px;
+        background: #F0F2F5;
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook_section h2{
+        width: 100%;
+        display: block;
+        margin-top: -120px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 60px;
+        color: #1877F2;
+        
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .facebook_section p{
+        display: block;
+        width: 370px;
+        font-size: 25px;
+        margin: 20px ;
+        padding-top: 10px;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        margin: 35px 0px 10px 20px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 14px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 480px;
+        height: 1px;
+        background: #DDDFE2;
+        margin-left: 15px;
+    }
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 480px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 15px;
+    }
+    .footer_lists li{
+        font-size: 11px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 15px;
+    }
+}
+
+/* media  (min-width : 400px) and (max-width : 515px) */
+@media  (min-width : 400px) and (max-width : 515px) {
+    .container{
+        width: 100%;
+        height: 700px;
+        background: #F0F2F5;
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook_section h2{
+        width: 100%;
+        display: block;
+        margin-top: -120px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 60px;
+        color: #1877F2;
+        
+    }
+    .facebook_section p{
+        display: block;
+        width: 370px;
+        font-size: 24px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .form{
+        border: 1px solid gainsboro;
+        box-shadow: 2px 5px 20px #D9DBDE;
+        border-radius: 10px;
+        margin-right: 20px;
+        display:block;
+        margin: 0px 30px;
+        width: 300px;
+        height: 360px;
+        background: #FFFFFF;
+    }
+    .form input{
+        width: 270px;
+        height: 50px;
+        padding: 14px 18px;
+        margin: 5px 14px;
+        font-size: 17px;
+        outline: none;
+        border: 1px solid #DDDFE2 ;
+        border-radius: 5px;
+    }
+    .log_in{
+        width: 270px;
+        height: 50px;
+        margin: 18px 14px;
+        font-size: 22px;
+        font-weight: 600;
+        background: #166FE5;
+        color: #FFFFFB;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .form p{
+        font-size: 15px;
+        text-align: center;
+        color: #1877F2;
+        cursor: pointer;
+    }
+    .line{
+        width: 270px;
+        height: 1px;
+        background: #DADDE1;
+        outline: none;
+        margin: 25px 14px;
+    }
+    .new_account{
+    
+        display: inline-block;
+        font-size: 18px;
+        padding: 15px 10px;
+        margin-left: 50px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        background: #36A420;
+        color: #FFFFFF;
+        cursor: pointer;
+        
+    }
+    input:focus{
+        outline: 1px solid #1877F2;
+    }
+    .create p{
+        color: #2c0e2c;
+        margin: 50px 0px;
+    }
+    
+    .create span{
+        font-size: 14px;
+        word-spacing: -1px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        flex-wrap:wrap;
+        margin: 35px 10px 10px 20px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 10px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 380px;
+        height: 1px;
+        background: #DDDFE2;
+        margin: 20px;
+    }
+
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 380px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 15px;
+    }
+    .footer_lists li{
+        font-size: 13px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 15px;
+    }
+}
+@media (max-width : 399px) {
+    .container{
+        width: 100%;
+        height: 700px;
+        background: #F0F2F5;
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook_section h2{
+        width: 100%;
+        display: block;
+        margin-top: -120px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 60px;
+        color: #1877F2;
+        
+    }
+    .facebook_section p{
+        display: block;
+        width: 370px;
+        font-size: 24px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .form{
+        border: 1px solid gainsboro;
+        box-shadow: 2px 5px 20px #D9DBDE;
+        border-radius: 10px;
+        margin-right: 20px;
+        display:block;
+        margin: 0px 30px;
+        width: 300px;
+        height: 360px;
+        background: #FFFFFF;
+    }
+    .form input{
+        width: 270px;
+        height: 50px;
+        padding: 14px 18px;
+        margin: 5px 14px;
+        font-size: 17px;
+        outline: none;
+        border: 1px solid #DDDFE2 ;
+        border-radius: 5px;
+    }
+    .log_in{
+        width: 270px;
+        height: 50px;
+        margin: 18px 14px;
+        font-size: 22px;
+        font-weight: 600;
+        background: #166FE5;
+        color: #FFFFFB;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .form p{
+        font-size: 15px;
+        text-align: center;
+        color: #1877F2;
+        cursor: pointer;
+    }
+    .line{
+        width: 270px;
+        height: 1px;
+        background: #DADDE1;
+        outline: none;
+        margin: 25px 14px;
+    }
+    .new_account{
+    
+        display: inline-block;
+        font-size: 18px;
+        padding: 15px 10px;
+        margin-left: 50px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        background: #36A420;
+        color: #FFFFFF;
+        cursor: pointer;
+        
+    }
+    .create p{
+        color: #2c0e2c;
+        margin: 50px 0px;
+    }
+    
+    .create span{
+        font-size: 14px;
+        word-spacing: -1px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .languages ul{
+        display: flex;
+        list-style: none;
+        flex-wrap:wrap;
+        margin: 35px 10px 10px 20px;
+    }
+    
+    .languages li{
+        margin: 5px;
+        font-size: 10px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    .footer_line{
+        width: 380px;
+        height: 1px;
+        background: #DDDFE2;
+        margin: 20px;
+    }
+
+    .footer_lists ul{
+
+        display: flex;
+        list-style: none;
+        width: 380px;
+        flex-wrap: wrap;
+        margin: 10px 70px 10px 15px;
+    }
+    .footer_lists li{
+        font-size: 13px;
+        color: #8A8D91;
+        cursor: pointer;
+    }
+    footer h3{
+        font-size: 11px;
+        color: #8A8D91;
+        margin: 25px 15px;
+    }
+}
+/* Media Query Section Style Ends Here */
